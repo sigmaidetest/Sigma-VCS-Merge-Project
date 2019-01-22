@@ -8,7 +8,8 @@
         "type": "DIRECTORY",
         "isDirectory": true,
         "children": [
-          "343cca05-c37f-40fa-9321-ae26709af946"
+          "343cca05-c37f-40fa-9321-ae26709af946",
+          "2c9ae7a1-a77c-46de-81f0-e556007227b9"
         ],
         "isRemovable": false,
         "filePath": "Sigma-VCS-Merge-Project"
@@ -31,14 +32,34 @@
           "memory": 128,
           "layers": []
         }
+      },
+      "2c9ae7a1-a77c-46de-81f0-e556007227b9": {
+        "id": "2c9ae7a1-a77c-46de-81f0-e556007227b9",
+        "parent": "6628986d-0727-4652-8b02-c37a577f2e9c",
+        "name": "new.js",
+        "type": "LAMBDA_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Sigma-VCS-Merge-Project/new.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed new.js\"});\n}",
+        "triggers": [],
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        }
       }
     },
     "deletedFiles": [],
     "rootNode": "6628986d-0727-4652-8b02-c37a577f2e9c",
     "openFiles": [
-      "343cca05-c37f-40fa-9321-ae26709af946"
+      "343cca05-c37f-40fa-9321-ae26709af946",
+      "2c9ae7a1-a77c-46de-81f0-e556007227b9"
     ],
-    "currentFileId": "343cca05-c37f-40fa-9321-ae26709af946",
+    "currentFileId": "2c9ae7a1-a77c-46de-81f0-e556007227b9",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -66,7 +87,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1548158704246
+    "lastSave": 1548158735867
   },
   "VCS_STATE": {
     "provider": "GitHub",
