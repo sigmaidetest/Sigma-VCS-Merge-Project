@@ -1,0 +1,77 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "6628986d-0727-4652-8b02-c37a577f2e9c": {
+        "id": "6628986d-0727-4652-8b02-c37a577f2e9c",
+        "parent": null,
+        "name": "Sigma-VCS-Merge-Project",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "343cca05-c37f-40fa-9321-ae26709af946"
+        ],
+        "isRemovable": false,
+        "filePath": "Sigma-VCS-Merge-Project"
+      },
+      "343cca05-c37f-40fa-9321-ae26709af946": {
+        "id": "343cca05-c37f-40fa-9321-ae26709af946",
+        "parent": "6628986d-0727-4652-8b02-c37a577f2e9c",
+        "name": "lambda.js",
+        "type": "LAMBDA_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Sigma-VCS-Merge-Project/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "triggers": [],
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        }
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "6628986d-0727-4652-8b02-c37a577f2e9c",
+    "openFiles": [
+      "343cca05-c37f-40fa-9321-ae26709af946"
+    ],
+    "currentFileId": "343cca05-c37f-40fa-9321-ae26709af946",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "Sigma-VCS-Merge-Project",
+    "projectDescription": "Sigma project to implement VCS merge (2756)",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1548152432776
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "Sigma-VCS-Merge-Project",
+      "url": "https://github.com/sigmaidetest/Sigma-VCS-Merge-Project"
+    }
+  }
+}
