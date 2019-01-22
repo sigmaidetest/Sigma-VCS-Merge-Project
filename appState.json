@@ -56,7 +56,8 @@
     ],
     "packageJSON": {
       "dependencies": {}
-    }
+    },
+    "lambdaId": "343cca05-c37f-40fa-9321-ae26709af946"
   },
   "PROJECT_META": {
     "projectName": "Sigma-VCS-Merge-Project",
@@ -65,7 +66,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1548155891453
+    "lastSave": 1548155925294
   },
   "VCS_STATE": {
     "provider": "GitHub",
