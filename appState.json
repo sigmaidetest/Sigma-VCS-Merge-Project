@@ -56,10 +56,9 @@
     "deletedFiles": [],
     "rootNode": "6628986d-0727-4652-8b02-c37a577f2e9c",
     "openFiles": [
-      "343cca05-c37f-40fa-9321-ae26709af946",
-      "2c9ae7a1-a77c-46de-81f0-e556007227b9"
+      "343cca05-c37f-40fa-9321-ae26709af946"
     ],
-    "currentFileId": "2c9ae7a1-a77c-46de-81f0-e556007227b9",
+    "currentFileId": "343cca05-c37f-40fa-9321-ae26709af946",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -87,7 +86,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1548158735867
+    "lastSave": 1548216584111
   },
   "VCS_STATE": {
     "provider": "GitHub",
